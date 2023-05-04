@@ -1,4 +1,4 @@
-[Project Architecture](/ProjectArchitecture.png)
+![Project Architecture](/ProjectArchitecture.png)
 ## Project Introduction:
 There is nothing more boring than having to repeat the same steps of data load and store every day. Well, now no more!\
 With the help of this exciting Microsoft Azure project, I intend to automate the tasks of loading vehicle data from the Amazon Web Services S3 storage to Azure Data Lake Gen 2 Storage using Azure Data Factory. That data will then be processed and stored to either Staging or Rejected folders based on its formation. Then from Data Lake Gen 2 Storage staging folder, that data will finally be stored in SQL Database Table. This process will be carried out daily, each data file separated based on date and months.
